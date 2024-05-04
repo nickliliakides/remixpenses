@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/pricing.jsx"],
+  "sourcesContent": ["import React from \"react\";\n\nconst PricingPage = () => {\n  return <h1>Pricing Page</h1>;\n};\n\nexport default PricingPage;\n"],
+  "mappings": ";;;;;;;;;AAAA,mBAAkB;AAGT;AADT,IAAM,cAAc,MAAM;AACxB,SAAO,mDAAC,QAAG,4BAAJ;AAAA;AAAA;AAAA;AAAA,SAAgB;AACzB;AAEA,IAAO,kBAAQ;",
+  "names": []
+}

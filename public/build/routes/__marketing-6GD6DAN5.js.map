@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/__marketing.jsx"],
+  "sourcesContent": ["import React from \"react\";\n\nconst MarketingLayoutPage = () => {\n  return <div>MarketingLayoutPage</div>;\n};\n\nexport default MarketingLayoutPage;\n"],
+  "mappings": ";;;;;;;AAAA,mBAAkB;AAGT;AADT,IAAM,sBAAsB,MAAM;AAChC,SAAO,mDAAC,SAAI,mCAAL;AAAA;AAAA;AAAA;AAAA,SAAwB;AACjC;AAEA,IAAO,oBAAQ;",
+  "names": []
+}

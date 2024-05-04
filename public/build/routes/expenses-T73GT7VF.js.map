@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/expenses.jsx"],
+  "sourcesContent": ["import { Outlet } from '@remix-run/react';\nimport React from 'react';\nimport expensesStyles from '~/styles/expenses.css';\n\nconst ExpensesLayout = () => {\n  return (\n    <>\n      <Outlet />\n      <main></main>\n    </>\n  );\n};\n\nexport default ExpensesLayout;\n\nexport function links() {\n  return [{ rel: 'stylesheet', href: expensesStyles }];\n}\n"],
+  "mappings": ";;;;;;;;;;AACA,IAAAA,gBAAkB;;;;;;AAKd;AAFJ,IAAM,iBAAiB,MAAM;AAC3B,SACE,sFACE;AAAA,uDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,WAAQ;AAAA,IACR,mDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,WAAM;AAAA,OAFR;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;AAEA,IAAOC,oBAAQ;AAER,SAAS,QAAQ;AACtB,SAAO,CAAC,EAAE,KAAK,cAAc,MAAM,iBAAe,CAAC;AACrD;",
+  "names": ["import_react", "expenses_default"]
+}

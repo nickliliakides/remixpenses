@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/expenses.jsx"],
+  "sourcesContent": ["import React from \"react\";\n\nconst expenses = () => {\n  return <div>expenses</div>;\n};\n\nexport default expenses;\n"],
+  "mappings": ";;;;;;;AAAA,mBAAkB;AAGT;AADT,IAAM,WAAW,MAAM;AACrB,SAAO,mDAAC,SAAI,wBAAL;AAAA;AAAA;AAAA;AAAA,SAAa;AACtB;AAEA,IAAO,mBAAQ;",
+  "names": []
+}

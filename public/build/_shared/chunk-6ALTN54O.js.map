@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/components/util/Logo.jsx"],
+  "sourcesContent": ["import { Link } from '@remix-run/react';\n\nfunction Logo() {\n  return (\n    <div id=\"logo\">\n      <Link className=\"\" to=\"/\">\n        <img src='img src=\"images/logo_transparent.jpg' alt=\"logo\" />\n      </Link>\n    </div>\n  );\n}\n\nexport default Logo;\n"],
+  "mappings": ";;;;;;;;;;;AAMQ;AAJR,SAAS,OAAO;AACd,SACE,mDAAC,SAAI,IAAG,QACN,6DAAC,QAAK,WAAU,IAAG,IAAG,KACpB,6DAAC,SAAI,KAAI,wCAAuC,KAAI,UAApD;AAAA;AAAA;AAAA;AAAA,SAA2D,KAD7D;AAAA;AAAA;AAAA;AAAA,SAEA,KAHF;AAAA;AAAA;AAAA;AAAA,SAIA;AAEJ;AAEA,IAAO,eAAQ;",
+  "names": []
+}

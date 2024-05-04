@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/$.jsx"],
+  "sourcesContent": ["import { redirect } from '@remix-run/node';\nimport { useCatch } from '@remix-run/react';\n\nexport const loader = ({ params }) => {\n  if (params['*'] === 'exp') {\n    return redirect('/expenses');\n  }\n\n  return null;\n};\n\nexport const CatchBoundary = () => {\n  const caughtResponse = useCatch();\n  return (\n    <Error title={caughtResponse.statusText}>\n      <p>{caughtResponse.data?.message || 'Something went wrong. Please try again later.'}</p>\n      <p>\n        Back to <Link to=\"/\">Safety</Link>.\n      </p>\n    </Error>\n  );\n};\n"],
+  "mappings": ";;;;;;;;;;;AAeM;AAJC,IAAM,gBAAgB,MAAM;AAXnC;AAYE,QAAM,iBAAiB,SAAS;AAChC,SACE,mDAAC,SAAM,OAAO,eAAe,YAC3B;AAAA,uDAAC,OAAG,gCAAe,SAAf,mBAAqB,YAAW,mDAApC;AAAA;AAAA;AAAA;AAAA,WAAoF;AAAA,IACpF,mDAAC,OAAE;AAAA;AAAA,MACO,mDAAC,QAAK,IAAG,KAAI,sBAAb;AAAA;AAAA;AAAA;AAAA,aAAmB;AAAA,MAAO;AAAA,SADpC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAJF;AAAA;AAAA;AAAA;AAAA,SAKA;AAEJ;",
+  "names": []
+}
