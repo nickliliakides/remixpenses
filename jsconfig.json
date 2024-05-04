@@ -1,13 +1,16 @@
 {
-  "include": ["**/*.js", "**/*.jsx", "app/components/auth/AuthForm.jsx"],
+  "exclude": ["./cypress", "./cypress.config.ts"],
+  "include": ["**/*.js", "**/*.jsx"],
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "types": ["vitest/globals"],
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "target": "ES2019",
+    "target": "ES2020",
     "strict": true,
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,6 +18,7 @@
     "paths": {
       "~/*": ["./app/*"]
     },
+    "skipLibCheck": true,
     "noEmit": true
   }
 }
