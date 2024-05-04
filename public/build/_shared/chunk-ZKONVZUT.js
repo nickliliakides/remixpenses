@@ -1,0 +1,1 @@
+import{d as a}from"/build/_shared/chunk-6ZWGV7J6.js";import{b as o}from"/build/_shared/chunk-LMXH6R3J.js";import{c as i}from"/build/_shared/chunk-Q3IECNXJ.js";var r=i(o());function e({title:c,children:d}){return(0,r.jsxs)("div",{className:"error",children:[(0,r.jsx)("div",{className:"icon",children:(0,r.jsx)(a,{})}),(0,r.jsx)("h2",{children:c}),d]})}var m=e;export{m as a};
