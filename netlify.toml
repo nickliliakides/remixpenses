@@ -1,7 +1,7 @@
 [build]
   command = "npx prisma generate && remix build"
   functions = "netlify/functions"
-  publish = "/build"
+  publish = "/"
 
 [dev]
   command = "remix watch"
@@ -9,7 +9,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/server"
+  to = "/build/index.js"
   status = 200
 
 [[headers]]
