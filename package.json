@@ -3,6 +3,7 @@
   "sideEffects": [
     "*.css"
   ],
+  "postinstall": "prisma generate",
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
