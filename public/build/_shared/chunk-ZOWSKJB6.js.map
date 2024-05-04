@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/components/util/Error.jsx"],
-  "sourcesContent": ["import { FaExclamationCircle } from 'react-icons/fa';\n\nfunction Error({ title, children }) {\n  return (\n    <div className=\"error\">\n      <div className=\"icon\">\n        <FaExclamationCircle />\n      </div>\n      <h2>{title}</h2>\n      {children}\n    </div>\n  );\n}\n\nexport default Error;\n"],
-  "mappings": ";;;;;;;;;;;AAMQ;AAJR,SAAS,MAAM,EAAE,OAAO,SAAS,GAAG;AAClC,SACE,mDAAC,SAAI,WAAU,SACb;AAAA,uDAAC,SAAI,WAAU,QACb,6DAAC,yBAAD;AAAA;AAAA;AAAA;AAAA,WAAqB,KADvB;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,mDAAC,QAAI,mBAAL;AAAA;AAAA;AAAA;AAAA,WAAW;AAAA,IACV;AAAA,OALH;AAAA;AAAA;AAAA;AAAA,SAMA;AAEJ;AAEA,IAAO,gBAAQ;",
-  "names": []
-}

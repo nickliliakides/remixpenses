@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../app/routes/expenses/analysis.jsx"],
-  "sourcesContent": ["import React from \"react\";\n\nconst ExpensesAnalysisPage = () => {\n  return <h1>Expenses Analysis Page</h1>;\n};\n\nexport default ExpensesAnalysisPage;\n"],
-  "mappings": ";;;;;;;AAAA,mBAAkB;AAGT;AADT,IAAM,uBAAuB,MAAM;AACjC,SAAO,mDAAC,QAAG,sCAAJ;AAAA;AAAA;AAAA;AAAA,SAA0B;AACnC;AAEA,IAAO,mBAAQ;",
-  "names": []
-}

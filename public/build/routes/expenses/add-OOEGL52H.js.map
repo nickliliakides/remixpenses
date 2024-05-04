@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../app/routes/expenses/add.jsx"],
-  "sourcesContent": ["import React from \"react\";\nimport ExpenseForm from \"~/components/expenses/ExpenseForm\";\nimport Modal from \"~/components/util/Modal\";\n\nconst ExpensesAddPage = () => {\n  return (\n    <Modal>\n      <ExpenseForm />\n    </Modal>\n  );\n};\n\nexport default ExpensesAddPage;\n"],
-  "mappings": ";;;;;;;;;;;AAAA,mBAAkB;AAOZ;AAHN,IAAM,kBAAkB,MAAM;AAC5B,SACE,mDAAC,iBACC,6DAAC,yBAAD;AAAA;AAAA;AAAA;AAAA,SAAa,KADf;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;AAEA,IAAO,cAAQ;",
-  "names": []
-}

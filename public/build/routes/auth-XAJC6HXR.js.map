@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/auth.jsx"],
-  "sourcesContent": ["import React from \"react\";\n\nconst AuthPage = () => {\n  return <h1>Auth Page</h1>;\n};\n\nexport default AuthPage;\n"],
-  "mappings": ";;;;;;;AAAA,mBAAkB;AAGT;AADT,IAAM,WAAW,MAAM;AACrB,SAAO,mDAAC,QAAG,yBAAJ;AAAA;AAAA;AAAA;AAAA,SAAa;AACtB;AAEA,IAAO,eAAQ;",
-  "names": []
-}

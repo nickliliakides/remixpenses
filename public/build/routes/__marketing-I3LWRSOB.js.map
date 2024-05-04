@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/__marketing.jsx"],
-  "sourcesContent": ["import { Outlet } from \"@remix-run/react\";\nimport React from \"react\";\n\nconst MarketingLayout = () => {\n  return <Outlet />;\n};\n\nexport default MarketingLayout;\n"],
-  "mappings": ";;;;;;;;;;AACA,IAAAA,gBAAkB;AAGT;AADT,IAAM,kBAAkB,MAAM;AAC5B,SAAO,mDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAQ;AACjB;AAEA,IAAO,oBAAQ;",
-  "names": ["import_react"]
-}

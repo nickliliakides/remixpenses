@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/auth.jsx"],
-  "sourcesContent": ["import React from \"react\";\nimport authStyles from \"~/styles/auth.css\";\n\nconst AuthPage = () => {\n  return <h1>Auth Page</h1>;\n};\n\nexport default AuthPage;\n\nexport function links() {\n  return [{ rel: \"stylesheet\", href: authStyles }];\n}\n"],
-  "mappings": ";;;;;;;AAAA,mBAAkB;;;;;;AAIT;AADT,IAAM,WAAW,MAAM;AACrB,SAAO,mDAAC,QAAG,yBAAJ;AAAA;AAAA;AAAA;AAAA,SAAa;AACtB;AAEA,IAAOA,gBAAQ;AAER,SAAS,QAAQ;AACtB,SAAO,CAAC,EAAE,KAAK,cAAc,MAAM,aAAW,CAAC;AACjD;",
-  "names": ["auth_default"]
-}

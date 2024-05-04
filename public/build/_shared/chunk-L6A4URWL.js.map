@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/components/util/Logo.jsx"],
-  "sourcesContent": ["import { Link } from '@remix-run/react';\n\nfunction Logo() {\n  return (\n    <Link id=\"logo\" to=\"/\">\n      <img src=\"images/logo_transparent.png\" alt=\"logo\" width={96} height={96} />\n    </Link>\n  );\n}\n\nexport default Logo;\n"],
-  "mappings": ";;;;;;;;;;;AAKM;AAHN,SAAS,OAAO;AACd,SACE,mDAAC,QAAK,IAAG,QAAO,IAAG,KACjB,6DAAC,SAAI,KAAI,+BAA8B,KAAI,QAAO,OAAO,IAAI,QAAQ,MAArE;AAAA;AAAA;AAAA;AAAA,SAAyE,KAD3E;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;AAEA,IAAO,eAAQ;",
-  "names": []
-}

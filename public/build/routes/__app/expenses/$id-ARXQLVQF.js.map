@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../app/routes/__app/expenses/$id.jsx"],
-  "sourcesContent": ["import { redirect } from \"@remix-run/node\";\nimport { useNavigate } from \"@remix-run/react\";\nimport ExpenseForm from \"~/components/expenses/ExpenseForm\";\nimport Modal from \"~/components/util/Modal\";\nimport { updateExpense } from \"~/data/expenses.server\";\nimport { validateExpenseInput } from \"~/data/validation.server\";\n// import { getExpense } from \"~/data/expenses.server\";\n\nconst ExpensesUpdatePage = () => {\n  const navigate = useNavigate();\n  // const expense = useLoaderData();\n\n  const closeHandler = () => {\n    navigate(\"..\");\n  };\n\n  return (\n    <Modal onClose={closeHandler}>\n      <ExpenseForm />\n    </Modal>\n  );\n};\n\nexport default ExpensesUpdatePage;\n\nexport const action = async ({ params, req }) => {\n  const expenseId = params.id;\n  const formData = await req.formData();\n  const expenseData = Object.fromEntries(formData);\n\n  try {\n    validateExpenseInput(expenseData);\n  } catch (error) {\n    return error;\n  }\n\n  updateExpense(expenseId, expenseData);\n  return redirect(\"/expenses\");\n};\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;AAIA,sBAA8B;AAC9B,wBAAqC;AAa/B;AAVN,IAAM,qBAAqB,MAAM;AAC/B,QAAM,WAAW,YAAY;AAG7B,QAAM,eAAe,MAAM;AACzB,aAAS,IAAI;AAAA,EACf;AAEA,SACE,mDAAC,iBAAM,SAAS,cACd,6DAAC,yBAAD;AAAA;AAAA;AAAA;AAAA,SAAa,KADf;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;AAEA,IAAO,aAAQ;",
-  "names": []
-}

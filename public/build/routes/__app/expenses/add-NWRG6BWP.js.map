@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../app/routes/__app/expenses/add.jsx"],
-  "sourcesContent": ["import React from \"react\";\nimport { useNavigate } from \"@remix-run/react\";\nimport ExpenseForm from \"~/components/expenses/ExpenseForm\";\nimport Modal from \"~/components/util/Modal\";\n\nconst ExpensesAddPage = () => {\n  const navigate = useNavigate();\n  const closeHandler = () => {\n    navigate(\"..\");\n  };\n\n  return (\n    <Modal onClose={closeHandler}>\n      <ExpenseForm />\n    </Modal>\n  );\n};\n\nexport default ExpensesAddPage;\n"],
-  "mappings": ";;;;;;;;;;;;;;AAAA,mBAAkB;AAaZ;AARN,IAAM,kBAAkB,MAAM;AAC5B,QAAM,WAAW,YAAY;AAC7B,QAAM,eAAe,MAAM;AACzB,aAAS,IAAI;AAAA,EACf;AAEA,SACE,mDAAC,iBAAM,SAAS,cACd,6DAAC,yBAAD;AAAA;AAAA;AAAA;AAAA,SAAa,KADf;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;AAEA,IAAO,cAAQ;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/__app.jsx"],
-  "sourcesContent": ["import React from \"react\";\n\nconst __app = () => {\n  return <div>__app</div>;\n};\n\nexport default __app;\n"],
-  "mappings": ";;;;;;;AAAA,mBAAkB;AAGT;AADT,IAAM,QAAQ,MAAM;AAClB,SAAO,mDAAC,SAAI,qBAAL;AAAA;AAAA;AAAA;AAAA,SAAU;AACnB;AAEA,IAAO,cAAQ;",
-  "names": []
-}

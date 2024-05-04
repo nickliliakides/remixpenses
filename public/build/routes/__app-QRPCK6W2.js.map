@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/__app.jsx"],
-  "sourcesContent": ["import React from \"react\";\nimport { Outlet } from \"@remix-run/react\";\n\nconst ExpensesAppLayout = () => {\n  return <Outlet />;\n};\n\nexport default ExpensesAppLayout;\n\nexport const links = () => {\n  return [{ rel: \"stylesheet\" }];\n};\n"],
-  "mappings": ";;;;;;;;;;AAAA,mBAAkB;AAIT;AADT,IAAM,oBAAoB,MAAM;AAC9B,SAAO,mDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAQ;AACjB;AAEA,IAAO,cAAQ;AAER,IAAM,QAAQ,MAAM;AACzB,SAAO,CAAC,EAAE,KAAK,aAAa,CAAC;AAC/B;",
-  "names": []
-}

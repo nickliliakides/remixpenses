@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/expenses.$id.jsx"],
-  "sourcesContent": ["import React from \"react\";\n\nconst ExpensesUpdatePage = () => {\n  return <h1>Expenses Update Page</h1>;\n};\n\nexport default ExpensesUpdatePage;\n"],
-  "mappings": ";;;;;;;AAAA,mBAAkB;AAGT;AADT,IAAM,qBAAqB,MAAM;AAC/B,SAAO,mDAAC,QAAG,oCAAJ;AAAA;AAAA;AAAA;AAAA,SAAwB;AACjC;AAEA,IAAO,sBAAQ;",
-  "names": []
-}

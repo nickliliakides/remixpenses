@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/expenses.add.jsx"],
-  "sourcesContent": ["import React from \"react\";\n\nconst ExpensesAddPage = () => {\n  return <h1>Expenses Add Page</h1>;\n};\n\nexport default ExpensesAddPage;\n"],
-  "mappings": ";;;;;;;AAAA,mBAAkB;AAGT;AADT,IAAM,kBAAkB,MAAM;AAC5B,SAAO,mDAAC,QAAG,iCAAJ;AAAA;AAAA;AAAA;AAAA,SAAqB;AAC9B;AAEA,IAAO,uBAAQ;",
-  "names": []
-}
