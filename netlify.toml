@@ -1,7 +1,7 @@
 [build]
   command = "npx prisma generate && remix build"
   functions = "netlify/functions"
-  publish = "/"
+  publish = "/build"
 
 [dev]
   command = "remix watch"
